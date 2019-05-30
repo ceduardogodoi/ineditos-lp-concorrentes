@@ -6,6 +6,10 @@ body {
     margin: 0 auto;
 }
 
+header {
+    background-color: rgba(37, 147, 247, 1.0);
+}
+
 main {
     background-color: rgba(37, 147, 247, 1.0);
 }
@@ -16,7 +20,7 @@ main section {
     height: inherit;
     background-image: url('../img/mulher_com_celular.png');
     background-repeat: no-repeat;
-    background-position: -5px 50px;
+    background-position: -35px 50px;
 }
 
 .logo-conveniado {
@@ -25,7 +29,7 @@ main section {
 }
 
 .info {
-    padding: 20px 0;
+    padding: 20px 0 0;
 }
 
 .info h1 {
@@ -41,7 +45,7 @@ main section {
 
 .info h2 {
     font-family: inherit;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .values-table {
@@ -72,3 +76,23 @@ main section {
     font-size: 1.125rem;
 }
 
+.cta {
+    text-align: left;
+    color: inherit;
+    background-color: rgb(115, 188, 0);
+    font-size: 18px;
+    padding: 24px;
+    line-height: 1.5;
+    border-radius: 4px;
+    width: 80%;
+}
+
+.div-cta {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-50px);   
+}
+
+.cta img {
+    float: right;
+}
