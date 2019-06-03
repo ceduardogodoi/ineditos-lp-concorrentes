@@ -273,7 +273,7 @@ main section {
 
 .card {
 	width: 195px;
-	/* height: 276px; */
+	height: 276px;
 	padding: 16px;
 	box-shadow: 1px 5px 15px 0 rgba(0, 0, 0, 0.2);
 	margin-left: 28px;
