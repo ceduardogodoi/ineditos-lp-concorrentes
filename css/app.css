@@ -349,6 +349,8 @@ main section {
 	font-size: .9rem;
 }
 
-.details {
-	
+.carmem-silveira-emoji {
+	background-image: url('../img/emoji-smile.png');
+	background-repeat: no-repeat;
+	background-position: right;
 }
