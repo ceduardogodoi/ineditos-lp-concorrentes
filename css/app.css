@@ -1,16 +1,16 @@
 body {
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
-	max-width: 1024px;
 	margin: 0 auto;
-}
-
-header {
-	background-color: rgba(37, 147, 247, 1.0);
 }
 
 main {
 	background-color: rgba(37, 147, 247, 1.0);
+}
+
+.main-div {
+	max-width: 1024px;
+	margin: 0 auto;
 }
 
 main section {
@@ -102,17 +102,23 @@ main section {
 	float: right;
 }
 
-.learn-more {
+.tradicao {
 	margin: 40px 25px 20px;
 	color: #000;
 	text-align: center;
 }
 
-.learn-more h3 {
+.tradicao h3 {
 	text-align: left;
 	font-size: 1rem;
 	font-weight: bold;
 	font-family: inherit;
+}
+
+.interest-avg {
+	font-family: Montserrat, sans-serif;
+	color: rgb(140, 140, 140, 1);
+	font-size: 1.2rem;
 }
 
 .comparator {
@@ -364,4 +370,8 @@ main section {
 	background-image: url('../img/emoji-shy.png');
 	background-repeat: no-repeat;
 	background-position: right;
+}
+
+.conheca-nos {
+	max-width: 230px;
 }
