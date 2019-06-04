@@ -276,7 +276,6 @@ main section {
 	height: 276px;
 	padding: 16px;
 	box-shadow: 1px 5px 15px 0 rgba(0, 0, 0, 0.2);
-	margin-left: 28px;
 	border-radius: 4px;
 	position: relative;
 	display: flex;
@@ -285,12 +284,12 @@ main section {
 
 .card-text {
 	font-size: 18px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.71;
-  letter-spacing: normal;
-  display: block;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	display: block;
 	text-align: center;
 	padding: 10px;
 }
@@ -326,19 +325,19 @@ main section {
 
 .rodape {
 	height: 123px;
-  background: #333333;
-  text-align: center;
+	background: #333333;
+	text-align: center;
 }
 
 .rodape span {
 	font-size: 12px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
 }
 
 .testimonials {
@@ -351,6 +350,18 @@ main section {
 
 .carmem-silveira-emoji {
 	background-image: url('../img/emoji-smile.png');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.vladmir-gaglioto-emoji {
+	background-image: url('../img/emoji-thumbs-up.png');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.marcia-castilho-emoji {
+	background-image: url('../img/emoji-shy.png');
 	background-repeat: no-repeat;
 	background-position: right;
 }
