@@ -355,6 +355,13 @@ main section {
 	}
 }
 
+@media (min-width: 1024px) {
+	.diferenciais {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+}
+
 .diferenciais h3 {
 	color: black;
 }
@@ -372,6 +379,13 @@ main section {
 	.diferenciais-group {
 		width: 750px;
 		transform: translateX(-80px);
+	}
+}
+
+@media (min-width: 1024px) {
+	.diferenciais-group {
+		width: 750px;
+		transform: none;
 	}
 }
 
@@ -418,9 +432,22 @@ main section {
 	}
 }
 
+@media (min-width: 1024px) {
+	.conheca-container {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+}
+
 .o-que-falam-container {
 	max-width: 600px;
 	margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+	.o-que-falam-container {
+		max-width: 800px;
+	}
 }
 
 .card {
@@ -520,6 +547,19 @@ main section {
 }
 
 @media (min-width: 768px) {
+	.no-slick-o-que-falam {
+		display: flex;
+		transform: translateX(-60px);
+	}
+}
+
+@media (min-width: 1024px) {
+	.no-slick-o-que-falam {
+		transform: none;
+	}
+}
+
+@media (min-width: 768px) {
 	.slick-slider {
 		display: none !important;
 	}
@@ -528,12 +568,14 @@ main section {
 		flex-direction: column;
 		transform: translateX(-40px);
 	}
-	.no-slick-o-que-falam {
-		display: flex;
-		transform: translateX(-60px);
-	}
 	.li-o-que-falam {
 		margin-right: 20px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.no-slick {
+		transform: none;
 	}
 }
 
@@ -546,6 +588,14 @@ main section {
 	font-size: 0.7rem;
 	padding: 5px 20px 10px;
 	text-align: justify;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+	.texto-legal {
+		max-width: 800px;
+	}
 }
 
 .rodape {
