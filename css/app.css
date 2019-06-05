@@ -368,6 +368,13 @@ main section {
 	padding: 0 24px;
 }
 
+@media (min-width: 768px) {
+	.diferenciais-group {
+		width: 750px;
+		transform: translateX(-80px);
+	}
+}
+
 .icon-list {
 	list-style: none;
 	position: relative;
