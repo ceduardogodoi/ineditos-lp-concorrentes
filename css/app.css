@@ -420,6 +420,14 @@ main section {
 	justify-content: center;
 }
 
+@media (min-width: 768px) {
+	.card {
+		padding: 0;
+		height: 235px;
+		width: 150px;
+	}
+}
+
 .card-text {
 	font-size: 18px;
 	font-weight: bold;
@@ -432,9 +440,37 @@ main section {
 	padding: 10px;
 }
 
+@media (min-width: 768px) {
+	.card-text {
+		font-size: 1rem;
+	}
+}
+
 .card-img {
 	display: flex;
 	justify-content: center;
+}
+
+.card-conheca {
+	margin-left: 28px;
+}
+
+@media (min-width: 375px) {
+	.card-conheca {
+		margin-left: 55px;
+	}
+}
+
+@media (min-width: 425px) {
+	.card-conheca {
+		margin-left: 90px;
+	}
+}
+
+@media (min-width: 768px) {
+	.card-conheca {
+		margin-left: 0;
+	}
 }
 
 .pb-blue-text {
@@ -453,6 +489,43 @@ main section {
 	margin: 0 auto;
 	padding: 0;
 	list-style: none;
+}
+
+@media (min-width: 768px) {
+	.comments-carousel {
+		margin: 0;
+	}
+}
+
+.no-slick {
+	display: none;
+}
+
+.no-slick-o-que-falam {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.slick-slider {
+		display: none !important;
+	}
+	.no-slick {
+		display: flex;
+		flex-direction: column;
+		transform: translateX(-40px);
+	}
+	.no-slick-o-que-falam {
+		display: flex;
+		transform: translateX(-60px);
+	}
+	.li-o-que-falam {
+		margin-right: 20px;
+	}
+}
+
+.four-cards {
+	display: flex;
+	flex-direction: row;
 }
 
 .texto-legal {
@@ -480,10 +553,26 @@ main section {
 
 .testimonials {
 	width: 245px;
+	margin: 20px auto;
 }
 
-.testimonials-text {
-	font-size: .9rem;
+@media (min-width: 768px) {
+	.testimonials {
+		width: 225px;
+	}
+}
+
+@media (min-width: 768px) {
+	.citacao {
+		max-width: 200px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 768px) {
+	.detalhes {
+		margin: 0 10px;
+	}
 }
 
 .carmem-silveira-emoji {
@@ -506,4 +595,21 @@ main section {
 
 .conheca-nos {
 	max-width: 230px;
+}
+
+@media (min-width: 768px) {
+	.conheca-nos {
+		margin-right: 20px;
+	}
+}
+
+.veja-o-que-falam {
+	padding: 25px 25px;
+}
+
+@media (min-width: 768px) {
+	.veja-o-que-falam {
+		padding: 25px 25px;
+		max-width: 400px;
+	}
 }
