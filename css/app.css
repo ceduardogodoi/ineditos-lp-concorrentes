@@ -131,14 +131,9 @@ main section {
 	width: 100%;
 }
 
-.info-parcelas {
-	margin-bottom: 25px;
-}
-
 .div-cta {
 	display: flex;
 	justify-content: center;
-	transform: translateY(-20px);
 }
 
 .cta img {
@@ -345,8 +340,19 @@ main section {
 	}
 }
 
-.diferenciais {
+.diferenciais-container {
 	background-color: rgba(244, 244, 244, 1.0);
+}
+
+.diferenciais {
+	padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+	.diferenciais {
+		max-width: 600px;
+		margin: 0 auto;
+	}
 }
 
 .diferenciais h3 {
@@ -384,6 +390,23 @@ main section {
 
 .item-icon-list img {
 	margin-bottom: 8px;
+}
+
+.conheca-container {
+	background-color: white;
+	padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+	.conheca-container {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+}
+
+.o-que-falam-container {
+	max-width: 600px;
+	margin: 0 auto;
 }
 
 .card {
