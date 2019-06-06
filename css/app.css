@@ -469,6 +469,14 @@ main section {
 	}
 }
 
+@media (min-width: 1024px) {
+	.card {
+		padding: 0;
+		height: 235px;
+		width: 186px;
+	}
+}
+
 .card-text {
 	font-size: 18px;
 	font-weight: bold;
@@ -623,6 +631,12 @@ main section {
 @media (min-width: 768px) {
 	.testimonials {
 		width: 225px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.testimonials {
+		width: 259px;
 	}
 }
 
