@@ -13,6 +13,16 @@ main {
 	margin: 0 auto;
 }
 
+.header-section {
+	height: 420px;
+}
+
+@media (min-width: 1280px) {
+	.header-section {
+		height: 478px;
+	}
+}
+
 @media (min-width: 768px) {
 	.main-div {
 		max-width: 600px;
@@ -22,6 +32,12 @@ main {
 @media (min-width: 1024px) {
 	.main-div {
 		max-width: 800px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.main-div {
+		max-width: 1024px;
 	}
 }
 
@@ -53,6 +69,12 @@ main section {
 	}
 }
 
+@media (min-width: 1280px) {
+	main section {
+		background-position: 536px 0;
+	}
+}
+
 .logo-conveniado {
 	display: flex;
 	justify-content: space-between;
@@ -74,6 +96,13 @@ main section {
 	.info h1 {
 		max-width: 390px;
 		font-size: 2.25rem;
+	}
+}
+
+@media (min-width: 1280px) {
+	.info h1 {
+		max-width: 534px;
+		font-size: 3rem;
 	}
 }
 
@@ -143,6 +172,10 @@ main section {
 	color: inherit;
 }
 
+.cta:visited {
+	color: inherit;
+}
+
 .div-cta {
 	display: flex;
 	justify-content: center;
@@ -191,10 +224,23 @@ main section {
 	}
 }
 
+@media (min-width: 1280px) {
+	.prices-comparator {
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+}
+
 .comparator {
 	padding: 0 25px;
 	max-width: 325px;
 	display: inline-block;
+}
+
+@media (min-width: 1280px) {
+	.comparator {
+		max-width: 388px;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -202,13 +248,20 @@ main section {
 		display: flex;
 	}
 
-	.comparator {
-		max-width: unset;
+	.comparator-desktop {
+		max-width: 300px;
+		display: block;
+	}
+}
+
+@media (min-width: 1280px) {
+	.graphic-container {
+		justify-content: space-between;
 	}
 
 	.comparator-desktop {
-		max-width: 300px;
-		display: block
+		max-width: 520px;
+		display: block;;
 	}
 }
 
@@ -238,6 +291,15 @@ main section {
 	}
 	.graphic-desktop {
 		width: 400px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.graphic {
+		max-width: 470px;
+	}
+	.graphic-desktop {
+		width: 520px;
 	}
 }
 
@@ -374,6 +436,13 @@ main section {
 	}
 }
 
+@media (min-width: 1280px) {
+	.diferenciais {
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+}
+
 .diferenciais h3 {
 	color: black;
 }
@@ -398,6 +467,12 @@ main section {
 	.diferenciais-group {
 		width: 750px;
 		transform: none;
+	}
+}
+
+@media (min-width: 1280px) {
+	.diferenciais-group {
+		width: 1010px;
 	}
 }
 
@@ -428,6 +503,12 @@ main section {
 	color: rgba(140, 140, 140, 1.0);
 }
 
+@media (min-width: 1280px) {
+	.item-icon-list {
+		height: 130px;
+	}
+}
+
 .item-icon-list img {
 	margin-bottom: 8px;
 }
@@ -451,6 +532,13 @@ main section {
 	}
 }
 
+@media (min-width: 1280px) {
+	.conheca-container {
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+}
+
 .o-que-falam-container {
 	max-width: 600px;
 	margin: 0 auto;
@@ -459,6 +547,12 @@ main section {
 @media (min-width: 1024px) {
 	.o-que-falam-container {
 		max-width: 800px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.o-que-falam-container {
+		max-width: 1024px;
 	}
 }
 
@@ -486,6 +580,14 @@ main section {
 		padding: 0;
 		height: 235px;
 		width: 186px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.card {
+		padding: 0;
+		height: 240px;
+		width: 223px;
 	}
 }
 
@@ -618,6 +720,12 @@ main section {
 	}
 }
 
+@media (min-width: 1280px) {
+	.texto-legal {
+		max-width: 1024px;
+	}
+}
+
 .rodape {
 	height: 123px;
 	background: #333333;
@@ -652,6 +760,12 @@ main section {
 	}
 }
 
+@media (min-width: 1280px) {
+	.testimonials {
+		width: 326px;
+	}
+}
+
 @media (min-width: 768px) {
 	.citacao {
 		max-width: 200px;
@@ -659,9 +773,22 @@ main section {
 	}
 }
 
+@media (min-width: 1280px) {
+	.citacao {
+		max-width: 260px;
+		margin: 0 auto 15px;
+	}
+}
+
 @media (min-width: 768px) {
 	.detalhes {
 		margin: 0 10px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.detalhes {
+		margin: 0 29px;
 	}
 }
 
@@ -690,6 +817,12 @@ main section {
 @media (min-width: 768px) {
 	.conheca-nos {
 		margin-right: 20px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.conheca-nos {
+		margin-right: 40px;
 	}
 }
 

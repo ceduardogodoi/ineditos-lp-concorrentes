@@ -15,8 +15,4 @@ $(document).ready(() => {
             centerPadding: '30px'
         });
     }
-    // else {
-    //     const slickers = document.querySelectorAll('.slick-slider');
-    //     slickers.forEach(slicker => slicker.classList.remove('slick-slider'));
-    // }
 });
