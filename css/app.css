@@ -31,7 +31,7 @@ main section {
 	height: inherit;
 	background-image: url('../img/mulher_com_celular_sm.png');
 	background-repeat: no-repeat;
-	background-position: -40px 25px;
+	background-position: -5px 25px;
 }
 
 @media (min-width: 375px) {
@@ -63,7 +63,7 @@ main section {
 }
 
 .info h1 {
-	font-weight: bold;
+	font-weight: bolder;
 	max-width: 221px;
 	font-family: inherit;
 	font-size: 1.4rem;
@@ -80,32 +80,16 @@ main section {
 	font-size: 1.4rem;
 }
 
-@media (min-width: 768px) {
-	.values-table {
-		max-width: 270px;
-	}
+.bullets {
+	list-style: none;
+	font-size: .68rem;
+	font-weight: bolder;
+	margin: 20px 0;
+	max-width: 150px;
 }
 
-@media (min-width: 1024px) {
-	.values-table {
-		max-width: 471px;
-	}
-}
-
-.values-table li {
-	display: flex;
-	justify-content: space-between;
-	border-bottom: thin solid rgb(220, 220, 220);
-	padding: 6px 0;
-	align-items: center;
-}
-
-.values-table li:last-of-type {
-	border-style: none
-}
-
-.values-table strong {
-	font-size: 1rem;
+.bullets li {
+	margin: 15px 0;
 }
 
 .cta {
