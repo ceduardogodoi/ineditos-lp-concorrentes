@@ -287,10 +287,10 @@ main section {
 		flex-direction: column;
 	}
 	.graphic {
-		max-width: 325px;
+		max-width: 425px;
 	}
 	.graphic-desktop {
-		width: 400px;
+		width: 482px;
 	}
 }
 
